@@ -1,5 +1,6 @@
 let newName = document.getElementById("Name");
 let aboutMe = document.getElementById("aboutMe");
+let history = document.getElementById("historySub");
 
 /*const createName = () => {
     let nameLength = newName.innerHTML.length;
@@ -21,6 +22,9 @@ const createName = (event) => {
     
 }
 
+
+
 //createName(newName);
 document.addEventListener('load', createName(newName));
 document.addEventListener('load', createName(aboutMe));
+document.addEventListener('load', createName(history));
